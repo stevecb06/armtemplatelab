@@ -294,7 +294,7 @@
             "name": "[variables('name')]",
             "location": "[resourceGroup().location]",
             "dependsOn": [
-                "[resourceId('Microsoft.Network/networkInterfaces', variables('nicname')]"
+                "[resourceId('Microsoft.Network/networkInterfaces', variables('nicname'))]"
             ],
             "tags": {
                 "BeardSite": "[resourceGroup().location]"
